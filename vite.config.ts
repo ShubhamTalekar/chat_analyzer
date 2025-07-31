@@ -17,7 +17,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
   build: {
-    target: 'es2015',
+    target: 'es2020',
     outDir: 'dist',
     sourcemap: false,
     minify: 'esbuild',
