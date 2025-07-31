@@ -16,4 +16,10 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    target: 'esnext',
+    outDir: 'dist',
+    sourcemap: false,
+    minify: 'esbuild'
+  }
 }));
